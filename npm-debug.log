@@ -1,0 +1,138 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/0.10.17/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.3.8
+3 info using node@v0.10.17
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/antonshuvalov/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/qf/t12bcq8x315d5s9tl88x9w7w0000gn/T/npm-9344-RPvdIWPY/1385836290093-0.6410064292140305/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/qf/t12bcq8x315d5s9tl88x9w7w0000gn/T/npm-9344-RPvdIWPY/1385836290093-0.6410064292140305/tmp.tgz
+12 verbose folder .
+13 silly lockFile 1f1177db-tar tar://.
+14 verbose lock tar://. /Users/antonshuvalov/.npm/1f1177db-tar.lock
+15 silly lockFile b1b4200b-90093-0-6410064292140305-tmp-tgz tar:///var/folders/qf/t12bcq8x315d5s9tl88x9w7w0000gn/T/npm-9344-RPvdIWPY/1385836290093-0.6410064292140305/tmp.tgz
+16 verbose lock tar:///var/folders/qf/t12bcq8x315d5s9tl88x9w7w0000gn/T/npm-9344-RPvdIWPY/1385836290093-0.6410064292140305/tmp.tgz /Users/antonshuvalov/.npm/b1b4200b-90093-0-6410064292140305-tmp-tgz.lock
+17 silly lockFile 1f1177db-tar tar://.
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile b1b4200b-90093-0-6410064292140305-tmp-tgz tar:///var/folders/qf/t12bcq8x315d5s9tl88x9w7w0000gn/T/npm-9344-RPvdIWPY/1385836290093-0.6410064292140305/tmp.tgz
+20 silly lockFile b1b4200b-90093-0-6410064292140305-tmp-tgz tar:///var/folders/qf/t12bcq8x315d5s9tl88x9w7w0000gn/T/npm-9344-RPvdIWPY/1385836290093-0.6410064292140305/tmp.tgz
+21 verbose tar unpack /var/folders/qf/t12bcq8x315d5s9tl88x9w7w0000gn/T/npm-9344-RPvdIWPY/1385836290093-0.6410064292140305/tmp.tgz
+22 silly lockFile b113d0de-90093-0-6410064292140305-package tar:///var/folders/qf/t12bcq8x315d5s9tl88x9w7w0000gn/T/npm-9344-RPvdIWPY/1385836290093-0.6410064292140305/package
+23 verbose lock tar:///var/folders/qf/t12bcq8x315d5s9tl88x9w7w0000gn/T/npm-9344-RPvdIWPY/1385836290093-0.6410064292140305/package /Users/antonshuvalov/.npm/b113d0de-90093-0-6410064292140305-package.lock
+24 silly lockFile b1b4200b-90093-0-6410064292140305-tmp-tgz tar:///var/folders/qf/t12bcq8x315d5s9tl88x9w7w0000gn/T/npm-9344-RPvdIWPY/1385836290093-0.6410064292140305/tmp.tgz
+25 verbose lock tar:///var/folders/qf/t12bcq8x315d5s9tl88x9w7w0000gn/T/npm-9344-RPvdIWPY/1385836290093-0.6410064292140305/tmp.tgz /Users/antonshuvalov/.npm/b1b4200b-90093-0-6410064292140305-tmp-tgz.lock
+26 silly gunzTarPerm modes [ '755', '644' ]
+27 silly gunzTarPerm extractEntry package.json
+28 silly gunzTarPerm extractEntry .npmignore
+29 silly gunzTarPerm extractEntry index.js
+30 silly gunzTarPerm extractEntry test.js
+31 silly gunzTarPerm extractEntry .jshintrc
+32 silly gunzTarPerm extractEntry .travis.yml
+33 silly gunzTarPerm extractEntry readme.md
+34 silly lockFile b113d0de-90093-0-6410064292140305-package tar:///var/folders/qf/t12bcq8x315d5s9tl88x9w7w0000gn/T/npm-9344-RPvdIWPY/1385836290093-0.6410064292140305/package
+35 silly lockFile b113d0de-90093-0-6410064292140305-package tar:///var/folders/qf/t12bcq8x315d5s9tl88x9w7w0000gn/T/npm-9344-RPvdIWPY/1385836290093-0.6410064292140305/package
+36 silly lockFile b1b4200b-90093-0-6410064292140305-tmp-tgz tar:///var/folders/qf/t12bcq8x315d5s9tl88x9w7w0000gn/T/npm-9344-RPvdIWPY/1385836290093-0.6410064292140305/tmp.tgz
+37 silly lockFile b1b4200b-90093-0-6410064292140305-tmp-tgz tar:///var/folders/qf/t12bcq8x315d5s9tl88x9w7w0000gn/T/npm-9344-RPvdIWPY/1385836290093-0.6410064292140305/tmp.tgz
+38 verbose tar pack [ '/Users/antonshuvalov/.npm/next-done/0.1.1/package.tgz',
+38 verbose tar pack   '/var/folders/qf/t12bcq8x315d5s9tl88x9w7w0000gn/T/npm-9344-RPvdIWPY/1385836290093-0.6410064292140305/package' ]
+39 verbose tarball /Users/antonshuvalov/.npm/next-done/0.1.1/package.tgz
+40 verbose folder /var/folders/qf/t12bcq8x315d5s9tl88x9w7w0000gn/T/npm-9344-RPvdIWPY/1385836290093-0.6410064292140305/package
+41 silly lockFile b113d0de-90093-0-6410064292140305-package tar:///var/folders/qf/t12bcq8x315d5s9tl88x9w7w0000gn/T/npm-9344-RPvdIWPY/1385836290093-0.6410064292140305/package
+42 verbose lock tar:///var/folders/qf/t12bcq8x315d5s9tl88x9w7w0000gn/T/npm-9344-RPvdIWPY/1385836290093-0.6410064292140305/package /Users/antonshuvalov/.npm/b113d0de-90093-0-6410064292140305-package.lock
+43 silly lockFile fe001502--npm-next-done-0-1-1-package-tgz tar:///Users/antonshuvalov/.npm/next-done/0.1.1/package.tgz
+44 verbose lock tar:///Users/antonshuvalov/.npm/next-done/0.1.1/package.tgz /Users/antonshuvalov/.npm/fe001502--npm-next-done-0-1-1-package-tgz.lock
+45 silly lockFile b113d0de-90093-0-6410064292140305-package tar:///var/folders/qf/t12bcq8x315d5s9tl88x9w7w0000gn/T/npm-9344-RPvdIWPY/1385836290093-0.6410064292140305/package
+46 silly lockFile b113d0de-90093-0-6410064292140305-package tar:///var/folders/qf/t12bcq8x315d5s9tl88x9w7w0000gn/T/npm-9344-RPvdIWPY/1385836290093-0.6410064292140305/package
+47 silly lockFile fe001502--npm-next-done-0-1-1-package-tgz tar:///Users/antonshuvalov/.npm/next-done/0.1.1/package.tgz
+48 silly lockFile fe001502--npm-next-done-0-1-1-package-tgz tar:///Users/antonshuvalov/.npm/next-done/0.1.1/package.tgz
+49 silly lockFile c1e30c21-alov-npm-next-done-0-1-1-package /Users/antonshuvalov/.npm/next-done/0.1.1/package
+50 verbose lock /Users/antonshuvalov/.npm/next-done/0.1.1/package /Users/antonshuvalov/.npm/c1e30c21-alov-npm-next-done-0-1-1-package.lock
+51 silly lockFile c1e30c21-alov-npm-next-done-0-1-1-package /Users/antonshuvalov/.npm/next-done/0.1.1/package
+52 silly lockFile c1e30c21-alov-npm-next-done-0-1-1-package /Users/antonshuvalov/.npm/next-done/0.1.1/package
+53 verbose tar unpack /Users/antonshuvalov/.npm/next-done/0.1.1/package.tgz
+54 silly lockFile 0f2caad9-alov-npm-next-done-0-1-1-package tar:///Users/antonshuvalov/.npm/next-done/0.1.1/package
+55 verbose lock tar:///Users/antonshuvalov/.npm/next-done/0.1.1/package /Users/antonshuvalov/.npm/0f2caad9-alov-npm-next-done-0-1-1-package.lock
+56 silly lockFile fe001502--npm-next-done-0-1-1-package-tgz tar:///Users/antonshuvalov/.npm/next-done/0.1.1/package.tgz
+57 verbose lock tar:///Users/antonshuvalov/.npm/next-done/0.1.1/package.tgz /Users/antonshuvalov/.npm/fe001502--npm-next-done-0-1-1-package-tgz.lock
+58 silly gunzTarPerm modes [ '755', '644' ]
+59 silly gunzTarPerm extractEntry package.json
+60 silly gunzTarPerm extractEntry .npmignore
+61 silly gunzTarPerm extractEntry index.js
+62 silly gunzTarPerm extractEntry test.js
+63 silly gunzTarPerm extractEntry .jshintrc
+64 silly gunzTarPerm extractEntry .travis.yml
+65 silly gunzTarPerm extractEntry readme.md
+66 silly lockFile 0f2caad9-alov-npm-next-done-0-1-1-package tar:///Users/antonshuvalov/.npm/next-done/0.1.1/package
+67 silly lockFile 0f2caad9-alov-npm-next-done-0-1-1-package tar:///Users/antonshuvalov/.npm/next-done/0.1.1/package
+68 silly lockFile fe001502--npm-next-done-0-1-1-package-tgz tar:///Users/antonshuvalov/.npm/next-done/0.1.1/package.tgz
+69 silly lockFile fe001502--npm-next-done-0-1-1-package-tgz tar:///Users/antonshuvalov/.npm/next-done/0.1.1/package.tgz
+70 verbose chmod /Users/antonshuvalov/.npm/next-done/0.1.1/package.tgz 644
+71 verbose chown /Users/antonshuvalov/.npm/next-done/0.1.1/package.tgz [ 501, 20 ]
+72 silly lockFile 3a52ce78- .
+73 silly lockFile 3a52ce78- .
+74 silly publish { name: 'next-done',
+74 silly publish   description: 'It\'s just countdowns your callbacks.',
+74 silly publish   version: '0.1.1',
+74 silly publish   license: 'MIT',
+74 silly publish   repository:
+74 silly publish    { type: 'git',
+74 silly publish      url: 'https://github.com/shuvalov-anton/next-done.git' },
+74 silly publish   devDependencies: {},
+74 silly publish   author:
+74 silly publish    { name: 'Anton Shuvalov',
+74 silly publish      email: 'anton_shuvalov@me.com',
+74 silly publish      url: 'http://anton-shuvalov.info' },
+74 silly publish   main: 'index.js',
+74 silly publish   keywords: [ 'asynchronous', 'countdown', 'next', 'done' ],
+74 silly publish   scripts: { test: 'mocha' },
+74 silly publish   bugs: { url: 'https://github.com/shuvalov-anton/next-done/issues' },
+74 silly publish   dependencies: { mocha: '~1.14.0' },
+74 silly publish   readme: '# next-done\n\nCountdown your callbacks\n\n[![Build Status](https://secure.travis-ci.org/shuvalov-anton/next-done.png)](http://travis-ci.org/shuvalov-anton/next-done)\n\n## Install\n\n    npm i --save next-done\n\n## Example\n\n    var Countdown = require(\'next-done\');\n    var modules   = require(\'../modules\')\n\n    module.exports = function(done) {\n      var next = new Countdown(Object.keys(modules), done)\n      for (var key in modules) new Compilation(modules[key], next);\n    }',
+74 silly publish   readmeFilename: 'readme.md',
+74 silly publish   _id: 'next-done@0.1.1',
+74 silly publish   dist: { shasum: 'ead64b7323e18baeb61a8d695378fafcfbee9ac7' },
+74 silly publish   _from: '.' }
+75 verbose url raw next-done
+76 verbose url resolving [ 'https://registry.npmjs.org/', './next-done' ]
+77 verbose url resolved https://registry.npmjs.org/next-done
+78 info trying registry request attempt 1 at 00:31:30
+79 http PUT https://registry.npmjs.org/next-done
+80 http 409 https://registry.npmjs.org/next-done
+81 verbose url raw next-done
+82 verbose url resolving [ 'https://registry.npmjs.org/', './next-done' ]
+83 verbose url resolved https://registry.npmjs.org/next-done
+84 info trying registry request attempt 1 at 00:31:35
+85 http GET https://registry.npmjs.org/next-done
+86 http 200 https://registry.npmjs.org/next-done
+87 error publish fail Cannot publish over existing version.
+87 error publish fail Update the 'version' field in package.json and try again.
+87 error publish fail
+87 error publish fail If the previous version was published in error, see:
+87 error publish fail     npm help unpublish
+87 error publish fail
+87 error publish fail To automatically increment version numbers, see:
+87 error publish fail     npm help version
+88 error System Darwin 13.0.0
+89 error command "/usr/local/Cellar/node/0.10.17/bin/node" "/usr/local/bin/npm" "publish"
+90 error cwd /Users/antonshuvalov/Desktop/next-done
+91 error node -v v0.10.17
+92 error npm -v 1.3.8
+93 error code EPUBLISHCONFLICT
+94 verbose exit [ 1, true ]
