@@ -1,0 +1,28 @@
+{
+  "name": "next-done",
+  "description": "It's just countdowns your callbacks.",
+  "version": "0.3.2",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shuvalov-anton/next-done.git"
+  },
+  "devDependencies": {},
+  "author": "Anton Shuvalov <anton_shuvalov@me.com> (http://anton-shuvalov.info)",
+  "main": "index.js",
+  "keywords": [
+    "asynchronous",
+    "countdown",
+    "next",
+    "done"
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "bugs": {
+    "url": "https://github.com/shuvalov-anton/next-done/issues"
+  },
+  "dependencies": {
+    "mocha": "~1.14.0"
+  }
+}
