@@ -11,12 +11,12 @@ var assert         = require('assert');
 
 // End of dependencies.
 
-describe('new Route()', function(){
+describe('test', function(){
 
   /**
    * No route
    */
-  it('Must returns 404', function(done){
+  it('next 3 times', function(done){
     var next = new Countdown(3, done);
     next();
     next();
