@@ -1,5 +1,7 @@
 # Countdown your callbacks
 
+[![Build Status](https://secure.travis-ci.org/shuvalov-anton/next-done.png)](http://travis-ci.org/shuvalov-anton/next-done)
+
     var Countdown = require('next-done');
     var modules   = require('../modules')
 
