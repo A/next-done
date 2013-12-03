@@ -3,10 +3,8 @@
 module.exports = function (count, done) {
   if (!done) throw new Error('`done` must be a function');
   return function (err) {
-    err
+    (!--count || err)
       ? done(err)
-      : --count
-        ? null
-        : done();
+      : null;
   };
 };
