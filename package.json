@@ -7,7 +7,9 @@
     "type": "git",
     "url": "https://github.com/shuvalov-anton/next-done.git"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "~1.14.0"
+  },
   "author": "Anton Shuvalov <anton_shuvalov@me.com> (http://anton-shuvalov.info)",
   "main": "index.js",
   "keywords": [
@@ -21,8 +23,5 @@
   },
   "bugs": {
     "url": "https://github.com/shuvalov-anton/next-done/issues"
-  },
-  "dependencies": {
-    "mocha": "~1.14.0"
   }
 }
