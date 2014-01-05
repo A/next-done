@@ -44,8 +44,27 @@ describe('test', function(){
       next(); // throw error
     } catch (err) {
       assert(err.toString() === 'Error: `done` called multiple times.');
-      done()
+      done();
     }
+
+  });
+
+
+  it('should return error', function(done){
+    var next = new Countdown(2, function (err) {
+      // don't call it!
+    });
+ 
+    next();
+    next();
+
+    try {
+      next(); // throw error
+    } catch (err) {
+      assert(err.toString() === 'Error: `done` called multiple times.');
+      done();
+    }
+
   });
 
 });
