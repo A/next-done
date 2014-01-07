@@ -8,7 +8,7 @@ module.exports = function (count, cb) {
       if (isDone) throw new Error ('`done` called multiple times.');
       isDone = true;
       cb(err);
-    }
+    };
   })();
 
 
