@@ -5,6 +5,8 @@ Countdown your callbacks
 [![Build Status](https://secure.travis-ci.org/shuvalov-anton/next-done.png)](http://travis-ci.org/shuvalov-anton/next-done)
 [![Code Climate](https://codeclimate.com/github/shuvalov-anton/next-done.png)](https://codeclimate.com/github/shuvalov-anton/next-done)
 
+[![NPM](https://nodei.co/npm/next-done.png?downloads=true)](https://nodei.co/npm/next-done/)
+
 ## Install
 
     npm i --save next-done
