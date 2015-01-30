@@ -13,10 +13,12 @@ Countdown your callbacks
 
 ## Example
 
-    var Countdown = require('next-done');
-    var modules   = require('../modules')
+```js
+var Countdown = require('next-done');
+var modules   = require('../modules')
 
-    module.exports = function(done) {
-      var next = new Countdown(Object.keys(modules).length, done)
-      for (var key in modules) new Compilation(modules[key], next);
-    }
+module.exports = function(done) {
+  var next = new Countdown(Object.keys(modules).length, done)
+  for (var key in modules) new Compilation(modules[key], next);
+}
+```
